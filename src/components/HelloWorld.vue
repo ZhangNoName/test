@@ -27,6 +27,7 @@
         <el-menu-item index="/components/userMangager">用户管理</el-menu-item>
         <el-menu-item index="/components/deviceMangager">设备管理</el-menu-item>
         <el-menu-item index="/components/testMangager">测试管理</el-menu-item>
+        <el-menu-item index="/components/visualList">虚拟列表</el-menu-item>
         <el-menu-item><a href="https://www.ele.me" target="_blank">点餐订饭</a></el-menu-item>
 </el-menu>
 </el-header>

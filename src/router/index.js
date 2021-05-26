@@ -4,7 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import deviceMangager from '@/components/deviceMangager'
 import testMangager from '@/components/testMangager'
 import userMangager from '@/components/userMangager'
-
+import visualList from '@/components/visualList'
 Vue.use(Router)
 
 export default new Router({
@@ -29,6 +29,11 @@ export default new Router({
             path:'/components/userMangager',
             name:'userMangager',
             component:userMangager
+        },
+        {
+            path:'/components/visualList',
+            name:'visualList',
+            component:visualList
         }
       ]
     }, 
