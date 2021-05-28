@@ -1,12 +1,12 @@
 <template>
-<div style="width:450px;display:flex">
+<div  class="label">
     <div class="left">
         <img :src="url" alt="未加载" class="image" >
     </div>
     <div class="right">
         <div class="top"> 
             <p class="data">张新阳</p>
-            <p class="year">23</p>
+            <p class="year">{{year}}</p>
             <img src="../../static/image/male.png" class="sex"></img>
             <p class="address">河南/开封</p>
         </div>
@@ -25,6 +25,13 @@ export default {
             default:()=>{
                 return " "
             }
+        },
+        year:{
+            type:Number,
+            default:()=>{
+                return 0
+            }
+
         }
     },
     data(){
@@ -34,7 +41,7 @@ export default {
     },
     
     created(){
-        console.log(this.url);
+        //console.log(this.url);
 
     },
     methods:{
@@ -45,6 +52,11 @@ export default {
 </script>
 
 <style>
+.label{
+    margin-bottom: 9px;
+    width:500px;
+    display:flex;
+}
 .left{
     display: inline;
     float: left;
