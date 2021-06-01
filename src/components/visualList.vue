@@ -51,7 +51,7 @@ export default {
                 index:1,
                 date:"周一",
                 name:"zxy",
-                address:"成都理工大学"
+                address:"cdut"
             }],
             list:[],
             rowHeight:40,
@@ -72,7 +72,7 @@ export default {
                 index:i,
                 date:"周一",
                 name:"zxy",
-                address:"成都理工大学"});
+                address:"cdut"});
             this.showList.push({num:i,url:this.url});      
         }
         //计算滚动容器高度
@@ -140,7 +140,7 @@ export default {
     border: 1px solid #c1c1c1;
 }
 .table1{
-position: absolute;
+    position: absolute;
     left: 0;
     top: 0;
     right: 0;
@@ -150,7 +150,7 @@ position: absolute;
     height:40px;
 }
 .showTable{
-        left: 0;
+    left: 0;
     right: 0;
     top: 0;
     position: absolute;
